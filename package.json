@@ -1,0 +1,25 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Week Seven Homework Part 2: [Node Express Handlebars](http://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/09-11-2017-UCB-Class-Repository-FSF-FT/blob/master/07-week/homework/part-2/homework_instructions.md).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbmarshall/burger.git"
+  },
+  "author": "David Morse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbmarshall/burger/issues"
+  },
+  "homepage": "https://github.com/dbmarshall/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
