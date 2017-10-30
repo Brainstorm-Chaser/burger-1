@@ -12,8 +12,8 @@ var exphbs = require('express-handlebars');
 var app = express();
 var PORT = process.env.PORT || 6060;
 
-// Display static files in /public/ directory
-app.use(express.static('./app/public'));
+// Make available static files in /public/ directory
+app.use(express.static('./public'));
 
 // Parsing 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -23,8 +23,8 @@ app.use(bodyParser.json());
 // require('./app/routing/apiRoutes')(app);
 // require('./app/routing/htmlRoutes')(app);
 
-app.post('/', function (req, res) {
-  res.send('Got a POST request')
+app.get('/', function (req, res) {
+  res.send('Got a GET request')
 })
 
 // Server Listener
