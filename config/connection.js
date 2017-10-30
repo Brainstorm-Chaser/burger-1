@@ -3,7 +3,7 @@ var connection;
 
 if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection(process.env.JAWSDB_URL);
-} else {
+  } else {
   connection = mysql.createConnection({
     port: 3306,
     host: 'localhost',
@@ -13,7 +13,8 @@ if (process.env.JAWSDB_URL) {
   });
 }
 
-//  mysql://b25f5f51735c83:3aa74aac@us-cdbr-iron-east-05.cleardb.net/heroku_44781f3abe4cedc?reconnect=true
+//  JAWSDB data: 
+//  mysql://oh4eaxfrppnebdz3:qbjrdul34mtxgr0l@bqmayq5x95g1sgr9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/lxom1nolscwa8q4w
 // var connection = mysql.createConnection({
 //   port     : 3306,
 //   host     : 'bqmayq5x95g1sgr9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
