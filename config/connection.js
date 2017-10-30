@@ -17,14 +17,6 @@ var connection = mysql.createConnection({
   password : '3aa74aac'
 });
 
-// 01:57:24 USE heroku_28437b49d76cc53  Error Code: 1044. Access denied for user 'b25f5f51735c83'@'%' to database 'heroku_28437b49d76cc53'  0.099 sec
-
-// CREATE USER 'b25f5f51735c83'@'%' IDENTIFIED BY "3aa74aac";
-// GRANT ALL PRIVILEDGES ON heroku_28437b49d76cc53.* TO 'b25f5f51735c83'@'%';
-
-// grant all on heroku_28437b49d76cc53.* to b25f5f51735c83@%;
-// GRANT ALL ON heroku_28437b49d76cc53.* TO 'b25f5f51735c83@%';
-
 connection.connect(function(err) {
   if (err) {
     console.error('error connecting: ' + err.stack);
