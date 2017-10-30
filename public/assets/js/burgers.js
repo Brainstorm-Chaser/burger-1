@@ -2,9 +2,9 @@
 $(function() {
   $('.change-devoured').on('click', function(event) {
     var id = $(this).data('id');
-      console.log('id: ', id);
+      // console.log('id: ', id);
     var newDevour = $(this).data('newdevour');
-      console.log('newDevour: ', newDevour);
+      // console.log('newDevour: ', newDevour);
 
     var newDevourState = {
       devoured: newDevour
@@ -35,7 +35,7 @@ $(function() {
     // Send the POST request.
     $.ajax('/api/burgers', {
       type: 'POST',
-      data: newCat
+      data: newBurger
     }).then(
       function() {
         console.log('created new burger');
