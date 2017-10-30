@@ -5,7 +5,8 @@
 // Dependencies
 var express = require('express');
 var bodyParser = require('body-parser');
-var path = require('path');
+var mysql = require('mysql');
+var exphbs = require('express-handlebars');
 
 // Express Server
 var app = express();

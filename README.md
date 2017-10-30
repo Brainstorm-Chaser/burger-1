@@ -6,7 +6,7 @@ Week Seven Homework Part 2: [Node Express Handlebars](http://ucb.bootcampcontent
 
 ```
 git clone https://github.com/dbmarshall/burger.git
-cd node-mysql
+cd burger
 npm install
 ```
 
@@ -27,7 +27,7 @@ npm install
 
 ## Shortcomings
 
-* No validation of photo link.
+* 
 
 ## Author
 
