@@ -14,8 +14,9 @@ ul {
 }
 li {
   padding: 10px;
-  margin: 5px;
+  margin: 10px;
   background: #e2a53b;
+  border-radius: 20px;
 }
 li h3 {
   margin: 0 0 5px 0;
