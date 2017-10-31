@@ -23,11 +23,7 @@ npm install
 
 ## Misc Notes
 
-* Pushes to Github repo autodeploy to Heroku (sweet).
-
-## Shortcomings
-
-* 
+* Github repo pushes autodeploy to Heroku (sweet).
 
 ## Author
 
