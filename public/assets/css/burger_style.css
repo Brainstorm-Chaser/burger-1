@@ -4,15 +4,23 @@ body {
 .container div div {
   text-align: center;
 }
+h1 {
+  margin: 0;
+  padding: 0;
+}
 ul {
   list-style-type: none;
+  padding: 0;
 }
 li {
-  padding: 5px;
+  padding: 10px;
   margin: 5px;
-  /*background: #faebd7;*/
+  background: #e2a53b;
 }
-
+li h3 {
+  margin: 0 0 5px 0;
+  padding: 0;
+}
 .label {
   font-weight: bold;
 }
